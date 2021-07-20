@@ -1,0 +1,29 @@
+// Place all the styles related to the Todos controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.form-check.editing {
+  display: flex;
+  align-items: center;
+
+  .form-check-input {
+    margin-top: 0;
+  }
+}
+
+label {
+  cursor: auto;
+}
+
+.align-right {
+  position: absolute;
+  right: 0;
+}
+
+.secondary-color {
+  position: relative;
+}
+
+.add-todo {
+  margin-bottom: 10px;
+}
